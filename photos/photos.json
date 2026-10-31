@@ -1,8 +1,15 @@
 [
-  { "file": "placeholder-1.svg", "caption": "Front of the house", "section": "house" },
-  { "file": "placeholder-2.svg", "caption": "Living room", "section": "house" },
-  { "file": "placeholder-3.svg", "caption": "Kitchen", "section": "house" },
-  { "file": "placeholder-4.svg", "caption": "Bedroom", "section": "house" },
-  { "file": "placeholder-5.svg", "caption": "Garden", "section": "surroundings" },
-  { "file": "placeholder-6.svg", "caption": "View from the terrace", "section": "surroundings" }
+  { "file": "river-beach.jpg",      "section": "surroundings", "caption": { "en": "Pebble beach by the river",            "es": "Playa de cantos junto al río",          "nl": "Kiezelstrandje aan de rivier" } },
+  { "file": "living-room.jpg",      "section": "house", "caption": { "en": "Living room with pellet stove",     "es": "Salón con estufa de pellets",           "nl": "Woonkamer met pelletkachel" } },
+  { "file": "tv-room.jpg",          "section": "house", "caption": { "en": "Sitting room with TV",              "es": "Sala de estar con televisión",          "nl": "Zitkamer met tv" } },
+  { "file": "bedroom-1.jpg",        "section": "house", "caption": { "en": "Bedroom 1, double bed",             "es": "Dormitorio 1, cama doble",              "nl": "Slaapkamer 1, tweepersoonsbed" } },
+  { "file": "bedroom-1-b.jpg",      "section": "house", "caption": { "en": "Bedroom 1",                         "es": "Dormitorio 1",                          "nl": "Slaapkamer 1" } },
+  { "file": "bedroom-2-twin.jpg",   "section": "house", "caption": { "en": "Bedroom 2, two single beds",        "es": "Dormitorio 2, dos camas individuales",  "nl": "Slaapkamer 2, twee eenpersoonsbedden" } },
+  { "file": "bedroom-2-twin-b.jpg", "section": "house", "caption": { "en": "Bedroom 2",                         "es": "Dormitorio 2",                          "nl": "Slaapkamer 2" } },
+  { "file": "bedroom-3.jpg",        "section": "house", "caption": { "en": "Bedroom 3, double bed",             "es": "Dormitorio 3, cama doble",              "nl": "Slaapkamer 3, tweepersoonsbed" } },
+  { "file": "bathroom-1.jpg",       "section": "house", "caption": { "en": "Bathroom 1 with walk-in shower",    "es": "Baño 1 con ducha a ras de suelo",       "nl": "Badkamer 1 met inloopdouche" } },
+  { "file": "bathroom-1-sink.jpg",  "section": "house", "caption": { "en": "Bathroom 1",                        "es": "Baño 1",                                "nl": "Badkamer 1" } },
+  { "file": "bathroom-2.jpg",       "section": "house", "caption": { "en": "Bathroom 2",                        "es": "Baño 2",                                "nl": "Badkamer 2" } },
+  { "file": "bathroom-2-sinks.jpg", "section": "house", "caption": { "en": "Bathroom 2, two washbasins",        "es": "Baño 2, dos lavabos",                   "nl": "Badkamer 2, twee wastafels" } },
+  { "file": "stairs.jpg",           "section": "house", "caption": { "en": "The staircase (narrow and winding)", "es": "La escalera (estrecha y de caracol)",   "nl": "De trap (smal en met een draai)" } }
 ]

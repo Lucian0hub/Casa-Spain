@@ -1,19 +1,13 @@
 // ---------------------------------------------------------------
 //  House settings. Change these values; the rest of the site
-//  picks them up automatically.
+//  picks them up automatically. All texts are in lang.js.
 // ---------------------------------------------------------------
 window.HOUSE = {
   name: "Casa [Name]",
-  tagline: "A family house in the green north of Spain",
-  region: "Cantabria, Northern Spain",
-  distance: "About 50 minutes by car from Santander",
-  email: "you@example.com",          // booking requests go here
-  maxGuests: 8,
+  email: "you@example.com",   // booking requests go here
+  bedrooms: 3,
+  beds: 4,                    // 2 double beds + 2 single beds
+  bathrooms: 2,
+  maxGuests: 6,
   minNights: 2,
-  facts: [
-    { label: "Bedrooms", value: "?" },
-    { label: "Beds", value: "?" },
-    { label: "Bathrooms", value: "?" },
-    { label: "Guests", value: "up to 8" },
-  ],
 };

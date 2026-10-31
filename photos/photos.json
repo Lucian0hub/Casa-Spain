@@ -1,0 +1,8 @@
+[
+  { "file": "placeholder-1.svg", "caption": "Front of the house", "section": "house" },
+  { "file": "placeholder-2.svg", "caption": "Living room", "section": "house" },
+  { "file": "placeholder-3.svg", "caption": "Kitchen", "section": "house" },
+  { "file": "placeholder-4.svg", "caption": "Bedroom", "section": "house" },
+  { "file": "placeholder-5.svg", "caption": "Garden", "section": "surroundings" },
+  { "file": "placeholder-6.svg", "caption": "View from the terrace", "section": "surroundings" }
+]

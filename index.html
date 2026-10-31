@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa in Cantabria</title>
+  <meta name="description" content="A family house in Northern Spain, about 50 minutes from Santander. Check availability and send a booking request.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="hero" id="top">
+    <div class="hero-img" id="heroImg"></div>
+    <div class="hero-text">
+      <p class="eyebrow" data-house="region"></p>
+      <h1 data-house="name"></h1>
+      <p class="tagline" data-house="tagline"></p>
+      <a class="btn" href="#availability">Check availability</a>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="#house">The house</a>
+    <a href="#photos">Photos</a>
+    <a href="#surroundings">Surroundings</a>
+    <a href="#availability">Availability</a>
+  </nav>
+
+  <main>
+    <section id="house" class="wrap">
+      <h2>The house</h2>
+      <ul class="facts" id="facts"></ul>
+      <p>
+        [Write a short, honest description here: how old the house is, what it feels like,
+        which rooms there are, what is great about it, and also what guests should know,
+        for example steep stairs, no air conditioning or a narrow access road.]
+      </p>
+      <div class="two-col">
+        <div>
+          <h3>What's there</h3>
+          <ul class="list">
+            <li>[Fully equipped kitchen]</li>
+            <li>[Wood stove / heating]</li>
+            <li>[Garden with terrace]</li>
+            <li>[Wi-Fi]</li>
+            <li>[Parking]</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Good to know</h3>
+          <ul class="list">
+            <li>[A car is needed: nearest shop is X km]</li>
+            <li>[Bed linen and towels: provided / bring your own]</li>
+            <li>[Pets: yes / no]</li>
+            <li>[Check-in from 16:00, check-out before 11:00]</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="photos" class="wrap">
+      <h2>Photos</h2>
+      <p class="muted">Real photos, not edited to look better than it is.</p>
+      <div class="gallery" id="gallery-house"></div>
+    </section>
+
+    <section id="surroundings" class="band">
+      <div class="wrap">
+        <h2>The surroundings</h2>
+        <p data-house="distance"></p>
+        <p>
+          [Describe the land around the house and the area: the view, the village,
+          walks, beaches, mountains, restaurants. Mention distances, e.g. "Beach: 30 min",
+          "Village bakery: 5 min walk".]
+        </p>
+        <ul class="distances">
+          <li><strong>Santander</strong><span>50 min</span></li>
+          <li><strong>[Nearest beach]</strong><span>[?] min</span></li>
+          <li><strong>[Supermarket]</strong><span>[?] min</span></li>
+          <li><strong>[Picos de Europa]</strong><span>[?] min</span></li>
+        </ul>
+        <div class="gallery" id="gallery-surroundings"></div>
+      </div>
+    </section>
+
+    <section id="availability" class="wrap">
+      <h2>Availability</h2>
+      <p class="muted">
+        Pick your arrival day, then your departure day. Grey dates are already taken.
+        <span id="updated"></span>
+      </p>
+      <div class="cal-controls">
+        <button class="icon-btn" id="prev" aria-label="Previous month">&#8249;</button>
+        <button class="icon-btn" id="next" aria-label="Next month">&#8250;</button>
+      </div>
+      <div class="calendars" id="calendars"></div>
+      <div class="legend">
+        <span><i class="sw free"></i>Free</span>
+        <span><i class="sw booked"></i>Taken</span>
+        <span><i class="sw sel"></i>Your dates</span>
+      </div>
+
+      <form class="request" id="request">
+        <h3>Request a stay</h3>
+        <p class="selection" id="selection">No dates selected yet.</p>
+        <div class="fields">
+          <label>Your name<input name="name" required></label>
+          <label>Number of guests<input name="guests" type="number" min="1" value="2" required></label>
+        </div>
+        <label>Message<textarea name="message" rows="3" placeholder="Who's coming, anything we should know"></textarea></label>
+        <button class="btn" type="submit">Send request by email</button>
+        <p class="muted small">This opens your email app with everything filled in. We'll reply to confirm.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p><span data-house="name"></span> · <span data-house="region"></span></p>
+    <p><a id="mailLink" href="#"></a></p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="icon-btn close" id="lbClose" aria-label="Close">&times;</button>
+    <img id="lbImg" alt="">
+    <p id="lbCap"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

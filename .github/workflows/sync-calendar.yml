@@ -1,0 +1,30 @@
+name: Sync calendar
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"     # every 3 hours
+  push:
+    paths: ["data/manual-bookings.json"]
+  workflow_dispatch:            # "Run workflow" button for a manual sync
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch Airbnb and Booking.com calendars
+        env:
+          ICAL_URLS: ${{ secrets.ICAL_URLS }}
+        run: node scripts/sync-calendars.mjs
+      - name: Save changes
+        run: |
+          git config user.name "calendar-bot"
+          git config user.email "calendar-bot@users.noreply.github.com"
+          git add data/availability.json data/calendar.ics
+          git diff --cached --quiet || (git commit -m "Update availability" && git push)

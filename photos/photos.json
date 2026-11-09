@@ -3,7 +3,7 @@
   { "file": "river-beach.jpg",      "section": "surroundings", "caption": { "en": "Pebble beach by the river",            "es": "Playa de cantos junto al río",          "nl": "Kiezelstrandje aan de rivier" } },
   { "file": "house-valley.jpg",     "section": "surroundings", "caption": { "en": "The house between forest and mountains", "es": "La casa entre bosque y montañas", "nl": "Het huis tussen bos en bergen" } },
   { "file": "living-room.jpg",      "section": "house", "caption": { "en": "Living room with pellet stove",     "es": "Salón con estufa de pellets",           "nl": "Woonkamer met pelletkachel" } },
-  { "file": "tv-room.jpg",          "section": "house", "caption": { "en": "Sitting room with TV",              "es": "Sala de estar con televisión",          "nl": "Zitkamer met tv" } },
+  { "file": "tv-room.jpg",          "section": "house", "caption": { "en": "Seating area with TV, part of one of the bedrooms", "es": "Rincón con sofá y televisión, parte de uno de los dormitorios", "nl": "Zithoek met tv, onderdeel van een van de slaapkamers" } },
   { "file": "bedroom-1.jpg",        "section": "house", "caption": { "en": "Bedroom 1, double bed",             "es": "Dormitorio 1, cama doble",              "nl": "Slaapkamer 1, tweepersoonsbed" } },
   { "file": "bedroom-1-b.jpg",      "section": "house", "caption": { "en": "Bedroom 1",                         "es": "Dormitorio 1",                          "nl": "Slaapkamer 1" } },
   { "file": "bedroom-2-twin.jpg",   "section": "house", "caption": { "en": "Bedroom 2, two single beds",        "es": "Dormitorio 2, dos camas individuales",  "nl": "Slaapkamer 2, twee eenpersoonsbedden" } },

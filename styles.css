@@ -114,4 +114,5 @@ a { color: var(--accent); }
 .lb-nav { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,.15); color: #fff; border: 0; }
 .lb-prev { left: 12px; }
 .lb-next { right: 12px; }
-.hero-img { background-position: center 70%; }
+.hero-img { background-position: center 60%; }
+@media (max-width: 640px) { .hero-img { background-position: 30% 60%; } }

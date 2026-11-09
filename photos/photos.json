@@ -1,5 +1,7 @@
 [
+  { "file": "house-front.jpg",      "section": "house", "caption": { "en": "The house with its terrace, in the green valley", "es": "La casa con su terraza, en el valle verde", "nl": "Het huis met terras, in het groene dal" } },
   { "file": "river-beach.jpg",      "section": "surroundings", "caption": { "en": "Pebble beach by the river",            "es": "Playa de cantos junto al río",          "nl": "Kiezelstrandje aan de rivier" } },
+  { "file": "house-valley.jpg",     "section": "surroundings", "caption": { "en": "The house between forest and mountains", "es": "La casa entre bosque y montañas", "nl": "Het huis tussen bos en bergen" } },
   { "file": "living-room.jpg",      "section": "house", "caption": { "en": "Living room with pellet stove",     "es": "Salón con estufa de pellets",           "nl": "Woonkamer met pelletkachel" } },
   { "file": "tv-room.jpg",          "section": "house", "caption": { "en": "Sitting room with TV",              "es": "Sala de estar con televisión",          "nl": "Zitkamer met tv" } },
   { "file": "bedroom-1.jpg",        "section": "house", "caption": { "en": "Bedroom 1, double bed",             "es": "Dormitorio 1, cama doble",              "nl": "Slaapkamer 1, tweepersoonsbed" } },
